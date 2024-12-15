@@ -1,0 +1,845 @@
+/* ==UserStyle==
+@name           AI-Studio-Gruvbox-Dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.1
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+
+
+
+
+@-moz-document regexp("aistudio.google.com") {
+    /* Your code goes here. */
+    @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
+    font-family: 'Chivo', sans-serif !important;
+    /*font-size : 14px ;*/ 
+}
+
+}
+@-moz-document domain("aistudio.google.com") {
+	
+	
+		/* Insert code here... */
+	/*Font Import */
+	/*Importing Margon */
+	/*Margon Medium Import */
+	@font-face {
+		font-family: "Margon 360 W08 Medium";
+		src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+		src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+	}
+
+
+	@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+
+
+
+	/*Bricolage Grotesque Import */
+	@font-face {
+		font-family: "Bricolage Grotesque";
+		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot");
+		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.svg#Bricolage Grotesque")format("svg");
+	}
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/102353a74d2e0700af3e11ef8a917b26?family=Bricolage+Grotesque);
+
+
+
+
+
+
+	/*Lora Font Import*/
+	@font-face {
+		font-family: "Lora";
+		src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot");
+		src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
+	}
+
+
+
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
+
+
+
+
+
+
+
+	/*Lingistics Pro Font  */
+	@font-face {
+		font-family: "Linguistics Pro";
+		src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot");
+		src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.svg#Linguistics Pro")format("svg");
+	}
+	@import url(https://db.onlinewebfonts.com/c/3612352f3b0606a3a5d675e7279f7c17?family=Linguistics+Pro);
+
+
+
+
+
+	/*Commit Mono*/
+	@font-face {
+		font-family: "CommitMono";
+		src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot");
+		src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
+	}
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
+
+
+
+
+
+	/*Fira Mono */
+	/* 
+	
+	Fira Mono font weights:
+  - Fira Mono 400 (Regular)
+  - Fira Mono 500 (Medium)
+  - Fira Mono 700 (Bold)
+*/
+	/* fira-mono-regular - latin */
+	/* fira-mono-latin-400-normal */
+	/* fira-mono-latin-400-normal */
+	@font-face {
+		font-family: 'Fira Mono';
+		font-style: normal;
+		font-display: auto;
+		font-weight: 400;
+		src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.ttf) format('truetype');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+
+
+
+
+
+
+
+	/* Spline Sans */
+	/* spline-sans-latin-wght-normal */
+	@font-face {
+		font-family: 'Spline Sans Variable';
+		font-style: normal;
+		font-display: auto;
+		font-weight: 300 700;
+		src: url(https://cdn.jsdelivr.net/fontsource/fonts/spline-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Hack Font */
+	@font-face {
+		font-family: "Hack";
+		src: url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.eot");
+		src: url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.svg#Hack")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Karla Font Testing */
+	@font-face {
+		font-family: "Karla";
+		src: url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.eot");
+		src: url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.svg#Karla")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@font-face {
+		font-family: "Karla Medium";
+		src: url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.eot");
+		src: url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.svg#Karla Medium")format("svg");
+	}
+
+
+
+
+
+
+
+	@font-face {
+		font-family: "Karla Bold";
+		src: url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.eot");
+		src: url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.svg#Karla Bold")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Archivo Font */
+	@font-face {
+		font-family: "Archivo";
+		src: url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.eot");
+		src: url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.svg#Archivo")format("svg");
+	}
+
+
+
+
+
+
+/* literata-latin-wght-normal */
+@font-face {
+  font-family: 'Literata Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/literata:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+	
+	    :root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-normal :#ffd29c ;
+
+    --shadow-bg:         #1d1b1a;
+    
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    
+  --dark-green: #79740e;  
+  --dark-yellow: #b57614; 
+  --dark-blue: #076678;   
+  --dark-purple: #8f3f71; 
+  --dark-aqua: #427b58;   
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; 
+  --interface-light0: #fbf1c7; 
+  --interface-light0-soft: #f2e5bc;
+  --interface-light1: #ebdbb2;
+  --interface-light3: #bdae93;
+  --interface-light4: #a89988;
+
+
+ 
+	
+	
+	}
+	
+	
+	
+	/*Save Share reset get code and Get APi key icon Side bar colors  */
+	.mdc-button .mdc-button__label , .nav-item-text-wrapper {
+	 color:#83a598 !important;
+		
+		font-family: "Jetbrains Mono" , sans-serif !important ; 
+		font-size: 0.8rem !important ; 
+}
+	
+	/*Google AI Studio text and UNitiled post text */
+	h1{
+		color : #79740e !important ; 
+				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+		font-size: 1.5rem !important ; 
+	}
+	
+	
+	/*SIde bar text */
+	/*System instrcutions adn Run settings  text */
+	h2 , .gmat-title-medium  , h3 {
+		color:#fb4934 !important;
+				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+	}
+	
+	/*All icons inside the webapp*/
+	.dark-theme .material-symbols-outlined{
+		color:#79740e !important;
+	}
+	
+	
+	/*input Text and related styles */
+	/*Text you enter inside the text area*/
+	textarea{
+		color:#d5c4a1 !important;
+		
+  font-family: 'Literata Variable' !important;
+	}
+	
+	
+	/*Text tat is just there as an input place holder */
+	textarea::placeholder{
+	 		
+  font-family: 'Literata Variable' !important;
+		color:#FB4934 !important;
+	}
+	
+	.input-wrapper {
+    border: 1px solid #4D4A08 !important ; 
+    border-color:#4D4A08 !important  ; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+	
+	.input-wrapper:focus-within {
+    background: #16181a !important ; 
+	
+	
+	}
+	
+	
+	/*BACKGROUND SYLES*/
+	
+	/*TOp bar */
+	
+	.base-header, .page-header{
+		background-color:#16181a !important;
+	}
+	
+	/*System instucitons and RUn stetings background */
+	.system-instructions , .header , .overlay-header {
+		color:#1a1b1d !important;
+		background-color:#1f1e1d !important;
+	}
+	
+	/*Side bar settings -> RIght background */
+	.settings-items-wrapper , .expand-collapse-toggle-wrapper{
+		background-color:#16181a !important;
+	}
+	
+	/*Main Chat Background */
+	ms-chat-session {
+		background-color:#16181a !importAnt;
+	}
+	
+	/*Hide the ugly lower backgorund */
+	caption {
+		display: none !important ;
+	}
+	
+	/*Lower footer where prommpt is entered */
+	footer {
+		padding: 12px 16px 16px 16px !important; 
+		background-color:#16181a !important;
+	}
+	
+	
+	
+	
+	
+	/*Model name bar */
+	.mat-mdc-select-value-text {
+
+	color:#b8bb26 !important;
+				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+		font-weight: 800 !important ; 
+	}
+	
+	
+	.dark-theme .cdk-overlay-pane:not(.mat-mdc-select-panel-above) div.mat-mdc-select-panel{
+		background-color:#1D2021 !important;
+	
+		
+	}
+	
+	/*models inside the model selection dialogue box */
+	span.base-model.gmat-body-medium{
+		color:#b8bb26 !important;
+				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+	}
+	
+	/*New model Idicator SIDE BAR */
+	/* New model tag button */
+	.base-model .new-model {
+		color : #fe8019 !important ; 
+		background: #1d1b1a !important ; 
+		border : solid 3px #d65d0e !important  ; 
+}
+	
+	/*Model Optioons Different model */
+	div.model-option-content{
+	font-family: "Bricolage Grotesque" !important ; 
+	}
+	
+	
+	.base-model-subtitle {
+    color: #fb4934 !important ; 
+				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+}
+	
+	
+	/*Model Information*/
+	div.container{
+		color : #b8bb26 !important ; 
+		background: #1f1e1d !important ; 
+		font-family: "Jetbrains Mono" !important ; 
+	}
+	
+	/*Side bar model info*/
+	div.model-name{
+		color: #fb4934 !important ; 
+		
+		font-family: "Bricolage Grotesque" !important ; 
+	}
+	
+	/*HOver model info */
+	div.model-info{
+		color: #83a598 !important ; 
+		
+		font-family: "Jetbrains Mono" !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Temperature icon */
+	
+	
+	.dark-theme {
+    --mat-slider-value-indicator-width: auto;
+    --mat-slider-value-indicator-height: 32px;
+    --mat-slider-value-indicator-caret-display: block;
+    --mat-slider-value-indicator-border-radius: 4px;
+    --mat-slider-value-indicator-padding: 0 12px;
+    --mat-slider-value-indicator-text-transform: none;
+    --mat-slider-value-indicator-container-transform: translateX(-50%);
+    --mdc-slider-active-track-height: 6px;
+    --mdc-slider-active-track-shape: 9999px;
+    --mdc-slider-handle-height: 20px;
+    --mdc-slider-handle-shape: 50%;
+    --mdc-slider-handle-width: 20px;
+    --mdc-slider-inactive-track-height: 4px;
+    --mdc-slider-inactive-track-shape: 9999px;
+    --mdc-slider-with-overlap-handle-outline-width: 1px;
+    --mdc-slider-with-tick-marks-active-container-opacity: 0.6;
+    --mdc-slider-with-tick-marks-container-shape: 50%;
+    --mdc-slider-with-tick-marks-container-size: 2px;
+    --mdc-slider-with-tick-marks-inactive-container-opacity: 0.6;
+    --mdc-slider-handle-color:  #FB4934 !important ;
+    --mdc-slider-focus-handle-color:  #B8BB26 !important ;
+    --mdc-slider-hover-handle-color:  #FABD2F !important ;
+    --mdc-slider-active-track-color: #FB4934 !important ;
+		/*hidden track color */
+    --mdc-slider-inactive-track-color: #FB4934 !important;
+    --mdc-slider-with-tick-marks-inactive-container-color: var(--color-primary-70);
+    --mdc-slider-with-tick-marks-active-container-color: white;
+    --mdc-slider-disabled-active-track-color: #fff;
+    --mdc-slider-disabled-handle-color: #fff;
+    --mdc-slider-disabled-inactive-track-color: #fff;
+    --mdc-slider-label-container-color: #fff;
+    --mdc-slider-label-label-text-color: #000;
+    --mdc-slider-with-overlap-handle-outline-color: #fff;
+    --mdc-slider-with-tick-marks-disabled-container-color: #fff;
+    --mdc-slider-handle-elevation: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    --mat-slider-ripple-color: var(--color-primary-70);
+    --mat-slider-hover-state-layer-color: rgba(var(--color-primary-70),0.05);
+    --mat-slider-focus-state-layer-color: rgba(var(--color-primary-70),0.2);
+    --mat-slider-value-indicator-opacity: 0.9;
+    --mdc-slider-label-label-text-font: "Google Sans Text","Helvetica Neue",sans-serif;
+    --mdc-slider-label-label-text-size: 14px;
+    --mdc-slider-label-label-text-line-height: 20px;
+    --mdc-slider-label-label-text-tracking: normal;
+    --mdc-slider-label-label-text-weight: 500;
+}
+	
+	
+	
+	
+	
+	
+	
+	:root .dark-theme {
+    --color-primary-0: #CC241D !important;
+    --color-primary-5: #FB4934 !important;
+    --color-primary-10: #FE8019 !important;
+    --color-primary-20: #FB4934 !important;
+    --color-primary-25: #FB4934 !important;
+    --color-primary-30: #FB4934 !important;
+    --color-primary-35: #CC241D !important;
+    --color-primary-40: #FE8019 !important;
+    --color-primary-50: #076eff !important;
+    --color-primary-60: #588cff !important;
+    --color-primary-70: #87a9ff !important;
+    --color-primary-80: #b1c5ff !important;
+    --color-primary-90: #dae2ff !important;
+    --color-primary-95: #FE8019 !important;
+    --color-primary-98: #FB4934 !important;
+    --color-primary-99: #fefbff !important;
+    --color-primary-100: #FB4934 !important;
+    --color-secondary-0: #000 !important;
+    --color-secondary-10: #001d35 !important;
+    --color-secondary-20: #003257 !important;
+    --color-secondary-25: #003e68 !important;
+    --color-secondary-30: #00497b !important;
+    --color-secondary-35: #00558e !important;
+    --color-secondary-40: #0062a1 !important;
+    --color-secondary-50: #007bc9 !important;
+    --color-secondary-60: #3295e8 !important;
+    --color-secondary-70: #5eb0ff !important;
+    --color-secondary-80: #9cccff !important;
+    --color-secondary-90: #d0e4ff !important;
+    --color-secondary-95: #e9f1ff !important;
+    --color-secondary-98: #f8f9ff !important;
+    --color-secondary-99: #fdfcff !important;
+    --color-secondary-100: #FB4934 !important;
+    --color-black: #000 !important;
+    --color-white: #FABD2F !important;
+    --color-neutral-0: #000 !important;
+    --color-neutral-5: #0f1113 !important;
+    --color-neutral-10: #1a1c1e !important;
+    --color-neutral-20: #2f3133 !important;
+    --color-neutral-25: #3a3b3e !important;
+    --color-neutral-30: #45474a !important;
+    --color-neutral-35: #515255 !important;
+    --color-neutral-40: #5d5e61 !important;
+    --color-neutral-50: #76777a !important;
+    --color-neutral-60: #8f9194 !important;
+    --color-neutral-70: #aaabae !important;
+    --color-neutral-80: #c6c6c9 !important;
+    --color-neutral-90: #e2e2e5 !important;
+    --color-neutral-95: #f0f0f4 !important;
+    --color-neutral-98: #f9f9fc !important;
+    --color-neutral-99: #fcfcff !important;
+    --color-neutral-100: #fff !important;
+    --color-neutral-variant-0: #000 !important;
+    --color-neutral-variant-5: #0e1117 !important;
+    --color-neutral-variant-10: #181c22 !important;
+    --color-neutral-variant-20: #2d3038 !important;
+    --color-neutral-variant-25: #383b43 !important;
+    --color-neutral-variant-30: #44474e !important;
+    --color-neutral-variant-35: #4f525a !important;
+    --color-neutral-variant-40: #5b5e66 !important;
+    --color-neutral-variant-50: #74777f !important;
+    --color-neutral-variant-60: #8e9099 !important;
+    --color-neutral-variant-70: #a8abb4 !important;
+    --color-neutral-variant-80: #c4c6cf !important;
+    --color-neutral-variant-90: #e0e2ec !important;
+    --color-neutral-variant-95: #eef0fa !important;
+    --color-neutral-variant-98: #f9f9ff !important;
+    --color-neutral-variant-99: #fdfbff !important;
+    --color-neutral-variant-100: #FFD29C !important;
+    --color-tertiary-0: #000 !important;
+    --color-tertiary-5: #B8BB26 !important;
+    --color-tertiary-10: #2a1700 !important;
+    --color-tertiary-20: #462a00 !important;
+    --color-tertiary-25: #553400 !important;
+    --color-tertiary-30: #653e00 !important;
+    --color-tertiary-35: #B8BB26 !important;
+    --color-tertiary-40: #845400 !important;
+    --color-tertiary-50: #a66a00 !important;
+    --color-tertiary-60: #c5831b !important;
+    --color-tertiary-70: #e49d36 !important;
+    --color-tertiary-80: #FB4934 !important;
+    --color-tertiary-90: #ffddb7 !important;
+    --color-tertiary-95: #ffeede !important;
+    --color-tertiary-98: #fff8f4 !important;
+    --color-tertiary-99: #fffbff !important;
+    --color-tertiary-100: #FFD29C !important;
+    --color-error-0: #000 !important;
+    --color-error-5: #2d0001 !important;
+    --color-error-10: #410002 !important;
+    --color-error-20: #690005 !important;
+    --color-error-25: #7e0007 !important;
+    --color-error-30: #BDAE93 !important;
+    --color-error-35: #a80710 !important;
+    --color-error-40: #ba1a1a !important;
+    --color-error-50: #de3730 !important;
+    --color-error-60: #ff5449 !important;
+    --color-error-70: #ff897d !important;
+    --color-error-80: #ffb4ab !important;
+    --color-error-90: #ffdad6 !important;
+    --color-error-95: #ffedea !important;
+    --color-error-98: #fff8f7 !important;
+    --color-error-99: #fffbff !important;
+    --color-error-100: #FABD2F !important;
+    --color-banner-background: #0842a0 !important;
+    --color-banner-content: #e2e2e5 !important;
+    --color-banner-link: #87a9ff !important;
+    --color-chat-core: #1a3059 !important;
+    --color-model-avatar: #33476b !important;
+    --color-run-button-disabled: #e2e2e51f !important;
+    --color-surface: #111416 !important;
+    --color-surface-bright: #37393c !important;
+    --color-surface-dim: #111416 !important;
+    --color-surface-container: #1e2022 !important;
+    --color-surface-container-high: #282a2d !important;
+    --color-surface-container-highest: #333537 !important;
+    --color-surface-container-low: #1a1c1e !important;
+    --color-surface-container-lowest: #0c0e11 !important;
+    --color-unified-input-focus-background: #2f3133 !important;
+    --color-unified-role-text: #fff !important;
+    --color-unified-role-model-background: #1a3059 !important;
+    --color-unified-role-user-background: #33573e !important;
+    --shadow-tchotchke: 0px 1px 3px 1px rgba(0,0,0,0.2),0px 1px 8px 0px #B8BB26 !important;
+}
+
+	
+.dark-theme .mat-primary {
+    --mat-full-pseudo-checkbox-selected-icon-color: #FB4934 !important;
+    --mat-full-pseudo-checkbox-selected-checkmark-color: #FB4934 !important;
+    --mat-full-pseudo-checkbox-unselected-icon-color: #D3869B !important;
+    --mat-full-pseudo-checkbox-disabled-selected-checkmark-color: #FE8019 !important;
+    --mat-full-pseudo-checkbox-disabled-unselected-icon-color: #B8BB26 !important;
+    --mat-full-pseudo-checkbox-disabled-selected-icon-color: #8EC07C !important;
+    --mat-minimal-pseudo-checkbox-selected-checkmark-color: #FB4934 !important;
+	--mat-minimal-pseudo-checkbox-disabled-selected-checkmark-color: #FE8019 !important;
+}
+	
+	
+	.dark-theme {
+    --mdc-switch-disabled-selected-icon-opacity: 0.38;
+    --mdc-switch-disabled-track-opacity: 0.12;
+    --mdc-switch-disabled-unselected-icon-opacity: 0.38;
+    --mdc-switch-handle-height: 20px;
+    --mdc-switch-handle-shape: 10px;
+    --mdc-switch-handle-width: 20px;
+    --mdc-switch-selected-icon-size: 18px;
+    --mdc-switch-track-height: 14px;
+    --mdc-switch-track-shape: 7px;
+    --mdc-switch-track-width: 36px;
+    --mdc-switch-unselected-icon-size: 18px;
+    --mdc-switch-selected-focus-state-layer-opacity: 0.12;
+    --mdc-switch-selected-hover-state-layer-opacity: 0.04;
+    --mdc-switch-selected-pressed-state-layer-opacity: 0.1;
+    --mdc-switch-unselected-focus-state-layer-opacity: 0.12;
+    --mdc-switch-unselected-hover-state-layer-opacity: 0.04;
+    --mdc-switch-unselected-pressed-state-layer-opacity: 0.1;
+    --mdc-switch-selected-focus-state-layer-color: var(--color-neutral-80);
+    --mdc-switch-selected-handle-color: var(--color-neutral-80);
+    --mdc-switch-selected-hover-state-layer-color: var(--color-neutral-80);
+    --mdc-switch-selected-pressed-state-layer-color: var(--color-neutral-80);
+    --mdc-switch-selected-focus-handle-color: var(--color-neutral-80);
+    --mdc-switch-selected-hover-handle-color: var(--color-neutral-80);
+    --mdc-switch-selected-pressed-handle-color: var(--color-neutral-80);
+    --mdc-switch-selected-focus-track-color: var(--color-primary-60);
+    --mdc-switch-selected-hover-track-color: var(--color-primary-60);
+    --mdc-switch-selected-pressed-track-color: var(--color-primary-60);
+    --mdc-switch-selected-track-color: var(--color-primary-60);
+    --mdc-switch-disabled-selected-handle-color: #000;
+    --mdc-switch-disabled-selected-icon-color: #212121;
+    --mdc-switch-disabled-selected-track-color: #FABD2F;
+    --mdc-switch-disabled-unselected-handle-color: #000;
+    --mdc-switch-disabled-unselected-icon-color: #212121;
+    --mdc-switch-disabled-unselected-track-color: #f5f5f5;
+    --mdc-switch-handle-surface-color: var(--mdc-theme-surface,#fff);
+    --mdc-switch-handle-elevation-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    --mdc-switch-handle-shadow-color: black;
+    --mdc-switch-disabled-handle-elevation-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2),0px 0px 0px 0px rgba(0,0,0,0.14),0px 0px 0px 0px rgba(0,0,0,0.12);
+    --mdc-switch-selected-icon-color: #212121;
+    --mdc-switch-unselected-focus-handle-color: #FFD29C;
+    --mdc-switch-unselected-focus-state-layer-color: #f5f5f5;
+    --mdc-switch-unselected-focus-track-color: #616161;
+    --mdc-switch-unselected-handle-color: #9e9e9e;
+    --mdc-switch-unselected-hover-handle-color: #fafafa;
+    --mdc-switch-unselected-hover-state-layer-color: #f5f5f5;
+    --mdc-switch-unselected-hover-track-color: #616161;
+    --mdc-switch-unselected-icon-color: #212121;
+    --mdc-switch-unselected-pressed-handle-color: #fafafa;
+    --mdc-switch-unselected-pressed-state-layer-color: #f5f5f5;
+    --mdc-switch-unselected-pressed-track-color: #616161;
+    --mdc-switch-unselected-track-color: #616161;
+    --mdc-switch-disabled-label-text-color: rgba(255,255,255,0.5);
+    --mdc-switch-state-layer-size: 28px;
+}
+	
+	
+	
+	
+	
+}
