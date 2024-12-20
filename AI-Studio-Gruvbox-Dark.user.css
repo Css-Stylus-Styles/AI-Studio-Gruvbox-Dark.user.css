@@ -535,7 +535,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	/*New model Idicator SIDE BAR */
 	/* New model tag button */
-	.base-model .new-model {
+	.base-model .new-model , .new-badge {
 		color : #fe8019 !important ; 
 		background: #1d1b1a !important ; 
 		border : solid 3px #d65d0e !important  ; 
@@ -560,6 +560,18 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		font-family: "Jetbrains Mono" !important ; 
 	}
 	
+	
+	/*Name of the model onthe page*/
+	span.gmat-body-medium {
+   font-family: "Bricolage Grotesque" !important ; 
+}
+	
+	/*This is thing  */
+	div.item-input.token-count div {
+    color: #b8bb26 !important; 
+   font-family: "Bricolage Grotesque" !important ; 
+}
+	
 	/*Side bar model info*/
 	div.model-name{
 		color: #fb4934 !important ; 
@@ -578,7 +590,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	/*YUser Prompt Div background */
 	._be6c57ce51d641fd8c2d .user-prompt-container .text-chunk  {
-    background-color: #3c3836 !important;
+    background-color: #1d1b1a !important;
+	border : solid #504945 1px !important; 
     border-radius: 16px !important;
     padding: 12px !important;
     color: #d5c4a1 !important;
@@ -610,6 +623,48 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 	
+	
+	/*Hidden Disclaimer -> I hate having this enabled */
+	.disclaimer{
+		display: none !important ; 
+	}
+	
+	
+	
+	
+	/*Icon*/
+	
+	svg {
+		color: #83a598 !important ;
+	}
+	.dark-theme .material-symbols-outlined {
+    color: #8ec07c !important;
+}
+	
+	
+	
+	/*Api Key bborde button */
+	.layout-navbar .get-api-key-button{
+    padding: 0 4px 0 8px !important;
+    background-color: #1d1b1a !important;
+	border: solid 1px #3c3836 !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*CODE RELATeD SYLES */
+	
+	
 	/*Inline Code background */
 	.inline-code{
 		color: #83a867 !important;
@@ -633,6 +688,16 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		background: #1f1e1d !important ; 
 }
 	
+	
+	/*Code Programmming Language */
+	.syntax-highlighted-code-wrapper .language {
+    font-size: .96rem !important;
+		color: #b8bb26 !important ; 
+		font-family: "Jetbrains Mono" !important;
+}
+	
+
+	
 	code {
 		color: #8ec07c !important;
 		font-family: "Jetbrains Mono" !important;
@@ -641,7 +706,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 
 	
-	acode .hljs {
+	code .hljs {
     display: block !important;
     overflow-x: auto !important;
     padding: 0.5em !important;
