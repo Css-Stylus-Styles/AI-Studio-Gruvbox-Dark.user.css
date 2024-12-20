@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -56,9 +56,6 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 
-	@import url(https://db.onlinewebfonts.com/c/102353a74d2e0700af3e11ef8a917b26?family=Bricolage+Grotesque);
-
-
 
 
 
@@ -78,8 +75,6 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 
-
-	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
 
 
 
@@ -477,6 +472,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 	
+	
 	/*BACKGROUND SYLES*/
 	
 	/*TOp bar */
@@ -580,6 +576,165 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
+	/*YUser Prompt Div background */
+	._be6c57ce51d641fd8c2d .user-prompt-container .text-chunk  {
+    background-color: #3c3836 !important;
+    border-radius: 16px !important;
+    padding: 12px !important;
+    color: #d5c4a1 !important;
+}
+	
+	
+	
+	
+	/*User Prompt Div background */
+	p {
+	color : #d5c4a1 !important ; 
+  font-family: 'Literata Variable' !important;
+}
+	
+	
+	/*Bold text */
+	strong {
+		
+	color :  #b8bb26 !important ; 
+	font-family: "Bricolage Grotesque" !important ; 
+	font-weight: 700 !important ; 
+	}
+	
+	
+	
+	li::marker{
+	font-family: "Bricolage Grotesque" !important ; 
+		color: #d65d0e !important ; 
+	}
+	
+	
+	/*Inline Code background */
+	.inline-code{
+		color: #83a867 !important;
+		background: #282828 !important;
+		font-family: "Jetbrains Mono" !important;
+		font-size: 0.76rem !important;
+		font-weight : 800 !important ; 
+		border: solid 1px #3c3836 !important;
+		border-radius: 23px !important ; 
+		padding: 0.1rem 0.5rem !important;
+	}
+	
+	
+	.syntax-highlighted-code-wrapper pre {
+    color : #ffd29c !important ; 
+	background: #16181a !important ; 
+		border-radius: 0.2rem !important ; 
+}
+	
+	div.syntax-highlighted-code {
+		background: #1f1e1d !important ; 
+}
+	
+	code {
+		color: #8ec07c !important;
+		font-family: "Jetbrains Mono" !important;
+		font-weight: 600 !important;
+		font-size: 0.9rem !important  ; 
+	}
+
+	
+	acode .hljs {
+    display: block !important;
+    overflow-x: auto !important;
+    padding: 0.5em !important;
+    background: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+code .hljs-meta {
+    color: #8ec07c !important;
+}
+
+code .hljs-meta-string {
+    color: #fe8019 !important;
+}
+
+code .hljs-comment {
+    color: #928374 !important;
+}
+
+code .hljs-keyword {
+    color: #fb4934 !important;
+}
+
+code .hljs-selector-tag {
+    color: #83a598 !important;
+}
+
+code .hljs-title {
+    color: #fb4934 !important;
+}
+
+code .hljs-function {
+    color: #83a598 !important;
+}
+
+code .hljs-built_in {
+    color: #fe8019 !important;
+}
+
+code .hljs-number {
+    color: #d3869b !important;
+}
+
+code .hljs-literal {
+    color: #d3869b !important;
+}
+
+code .hljs-string {
+    color: #b8bb26 !important;
+}
+
+code .hljs-class {
+    color: #fabd2f !important;
+}
+
+code .hljs-attribute {
+    color: #83a598 !important;
+}
+
+code .hljs-selector-attr {
+    color: #83a598 !important;
+}
+
+code .hljs-selector-pseudo {
+    color: #83a598 !important;
+}
+	
+	
+	code .hljs-selector-class {
+    color: #fabd2f !important;
+}
+	
+		
+	code .hljs-subst , .hljs-attr {
+    color: #83a598 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -644,199 +799,20 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
-	:root .dark-theme {
-    --color-primary-0: #CC241D !important;
-    --color-primary-5: #FB4934 !important;
-    --color-primary-10: #FE8019 !important;
-    --color-primary-20: #FB4934 !important;
-    --color-primary-25: #FB4934 !important;
-    --color-primary-30: #FB4934 !important;
-    --color-primary-35: #CC241D !important;
-    --color-primary-40: #FE8019 !important;
-    --color-primary-50: #076eff !important;
-    --color-primary-60: #588cff !important;
-    --color-primary-70: #87a9ff !important;
-    --color-primary-80: #b1c5ff !important;
-    --color-primary-90: #dae2ff !important;
-    --color-primary-95: #FE8019 !important;
-    --color-primary-98: #FB4934 !important;
-    --color-primary-99: #fefbff !important;
-    --color-primary-100: #FB4934 !important;
-    --color-secondary-0: #000 !important;
-    --color-secondary-10: #001d35 !important;
-    --color-secondary-20: #003257 !important;
-    --color-secondary-25: #003e68 !important;
-    --color-secondary-30: #00497b !important;
-    --color-secondary-35: #00558e !important;
-    --color-secondary-40: #0062a1 !important;
-    --color-secondary-50: #007bc9 !important;
-    --color-secondary-60: #3295e8 !important;
-    --color-secondary-70: #5eb0ff !important;
-    --color-secondary-80: #9cccff !important;
-    --color-secondary-90: #d0e4ff !important;
-    --color-secondary-95: #e9f1ff !important;
-    --color-secondary-98: #f8f9ff !important;
-    --color-secondary-99: #fdfcff !important;
-    --color-secondary-100: #FB4934 !important;
-    --color-black: #000 !important;
-    --color-white: #FABD2F !important;
-    --color-neutral-0: #000 !important;
-    --color-neutral-5: #0f1113 !important;
-    --color-neutral-10: #1a1c1e !important;
-    --color-neutral-20: #2f3133 !important;
-    --color-neutral-25: #3a3b3e !important;
-    --color-neutral-30: #45474a !important;
-    --color-neutral-35: #515255 !important;
-    --color-neutral-40: #5d5e61 !important;
-    --color-neutral-50: #76777a !important;
-    --color-neutral-60: #8f9194 !important;
-    --color-neutral-70: #aaabae !important;
-    --color-neutral-80: #c6c6c9 !important;
-    --color-neutral-90: #e2e2e5 !important;
-    --color-neutral-95: #f0f0f4 !important;
-    --color-neutral-98: #f9f9fc !important;
-    --color-neutral-99: #fcfcff !important;
-    --color-neutral-100: #fff !important;
-    --color-neutral-variant-0: #000 !important;
-    --color-neutral-variant-5: #0e1117 !important;
-    --color-neutral-variant-10: #181c22 !important;
-    --color-neutral-variant-20: #2d3038 !important;
-    --color-neutral-variant-25: #383b43 !important;
-    --color-neutral-variant-30: #44474e !important;
-    --color-neutral-variant-35: #4f525a !important;
-    --color-neutral-variant-40: #5b5e66 !important;
-    --color-neutral-variant-50: #74777f !important;
-    --color-neutral-variant-60: #8e9099 !important;
-    --color-neutral-variant-70: #a8abb4 !important;
-    --color-neutral-variant-80: #c4c6cf !important;
-    --color-neutral-variant-90: #e0e2ec !important;
-    --color-neutral-variant-95: #eef0fa !important;
-    --color-neutral-variant-98: #f9f9ff !important;
-    --color-neutral-variant-99: #fdfbff !important;
-    --color-neutral-variant-100: #FFD29C !important;
-    --color-tertiary-0: #000 !important;
-    --color-tertiary-5: #B8BB26 !important;
-    --color-tertiary-10: #2a1700 !important;
-    --color-tertiary-20: #462a00 !important;
-    --color-tertiary-25: #553400 !important;
-    --color-tertiary-30: #653e00 !important;
-    --color-tertiary-35: #B8BB26 !important;
-    --color-tertiary-40: #845400 !important;
-    --color-tertiary-50: #a66a00 !important;
-    --color-tertiary-60: #c5831b !important;
-    --color-tertiary-70: #e49d36 !important;
-    --color-tertiary-80: #FB4934 !important;
-    --color-tertiary-90: #ffddb7 !important;
-    --color-tertiary-95: #ffeede !important;
-    --color-tertiary-98: #fff8f4 !important;
-    --color-tertiary-99: #fffbff !important;
-    --color-tertiary-100: #FFD29C !important;
-    --color-error-0: #000 !important;
-    --color-error-5: #2d0001 !important;
-    --color-error-10: #410002 !important;
-    --color-error-20: #690005 !important;
-    --color-error-25: #7e0007 !important;
-    --color-error-30: #BDAE93 !important;
-    --color-error-35: #a80710 !important;
-    --color-error-40: #ba1a1a !important;
-    --color-error-50: #de3730 !important;
-    --color-error-60: #ff5449 !important;
-    --color-error-70: #ff897d !important;
-    --color-error-80: #ffb4ab !important;
-    --color-error-90: #ffdad6 !important;
-    --color-error-95: #ffedea !important;
-    --color-error-98: #fff8f7 !important;
-    --color-error-99: #fffbff !important;
-    --color-error-100: #FABD2F !important;
-    --color-banner-background: #0842a0 !important;
-    --color-banner-content: #e2e2e5 !important;
-    --color-banner-link: #87a9ff !important;
-    --color-chat-core: #1a3059 !important;
-    --color-model-avatar: #33476b !important;
-    --color-run-button-disabled: #e2e2e51f !important;
-    --color-surface: #111416 !important;
-    --color-surface-bright: #37393c !important;
-    --color-surface-dim: #111416 !important;
-    --color-surface-container: #1e2022 !important;
-    --color-surface-container-high: #282a2d !important;
-    --color-surface-container-highest: #333537 !important;
-    --color-surface-container-low: #1a1c1e !important;
-    --color-surface-container-lowest: #0c0e11 !important;
-    --color-unified-input-focus-background: #2f3133 !important;
-    --color-unified-role-text: #fff !important;
-    --color-unified-role-model-background: #1a3059 !important;
-    --color-unified-role-user-background: #33573e !important;
-    --shadow-tchotchke: 0px 1px 3px 1px rgba(0,0,0,0.2),0px 1px 8px 0px #B8BB26 !important;
-}
-
-	
-.dark-theme .mat-primary {
-    --mat-full-pseudo-checkbox-selected-icon-color: #FB4934 !important;
-    --mat-full-pseudo-checkbox-selected-checkmark-color: #FB4934 !important;
-    --mat-full-pseudo-checkbox-unselected-icon-color: #D3869B !important;
-    --mat-full-pseudo-checkbox-disabled-selected-checkmark-color: #FE8019 !important;
-    --mat-full-pseudo-checkbox-disabled-unselected-icon-color: #B8BB26 !important;
-    --mat-full-pseudo-checkbox-disabled-selected-icon-color: #8EC07C !important;
-    --mat-minimal-pseudo-checkbox-selected-checkmark-color: #FB4934 !important;
-	--mat-minimal-pseudo-checkbox-disabled-selected-checkmark-color: #FE8019 !important;
-}
 	
 	
-	.dark-theme {
-    --mdc-switch-disabled-selected-icon-opacity: 0.38;
-    --mdc-switch-disabled-track-opacity: 0.12;
-    --mdc-switch-disabled-unselected-icon-opacity: 0.38;
-    --mdc-switch-handle-height: 20px;
-    --mdc-switch-handle-shape: 10px;
-    --mdc-switch-handle-width: 20px;
-    --mdc-switch-selected-icon-size: 18px;
-    --mdc-switch-track-height: 14px;
-    --mdc-switch-track-shape: 7px;
-    --mdc-switch-track-width: 36px;
-    --mdc-switch-unselected-icon-size: 18px;
-    --mdc-switch-selected-focus-state-layer-opacity: 0.12;
-    --mdc-switch-selected-hover-state-layer-opacity: 0.04;
-    --mdc-switch-selected-pressed-state-layer-opacity: 0.1;
-    --mdc-switch-unselected-focus-state-layer-opacity: 0.12;
-    --mdc-switch-unselected-hover-state-layer-opacity: 0.04;
-    --mdc-switch-unselected-pressed-state-layer-opacity: 0.1;
-    --mdc-switch-selected-focus-state-layer-color: var(--color-neutral-80);
-    --mdc-switch-selected-handle-color: var(--color-neutral-80);
-    --mdc-switch-selected-hover-state-layer-color: var(--color-neutral-80);
-    --mdc-switch-selected-pressed-state-layer-color: var(--color-neutral-80);
-    --mdc-switch-selected-focus-handle-color: var(--color-neutral-80);
-    --mdc-switch-selected-hover-handle-color: var(--color-neutral-80);
-    --mdc-switch-selected-pressed-handle-color: var(--color-neutral-80);
-    --mdc-switch-selected-focus-track-color: var(--color-primary-60);
-    --mdc-switch-selected-hover-track-color: var(--color-primary-60);
-    --mdc-switch-selected-pressed-track-color: var(--color-primary-60);
-    --mdc-switch-selected-track-color: var(--color-primary-60);
-    --mdc-switch-disabled-selected-handle-color: #000;
-    --mdc-switch-disabled-selected-icon-color: #212121;
-    --mdc-switch-disabled-selected-track-color: #FABD2F;
-    --mdc-switch-disabled-unselected-handle-color: #000;
-    --mdc-switch-disabled-unselected-icon-color: #212121;
-    --mdc-switch-disabled-unselected-track-color: #f5f5f5;
-    --mdc-switch-handle-surface-color: var(--mdc-theme-surface,#fff);
-    --mdc-switch-handle-elevation-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
-    --mdc-switch-handle-shadow-color: black;
-    --mdc-switch-disabled-handle-elevation-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2),0px 0px 0px 0px rgba(0,0,0,0.14),0px 0px 0px 0px rgba(0,0,0,0.12);
-    --mdc-switch-selected-icon-color: #212121;
-    --mdc-switch-unselected-focus-handle-color: #FFD29C;
-    --mdc-switch-unselected-focus-state-layer-color: #f5f5f5;
-    --mdc-switch-unselected-focus-track-color: #616161;
-    --mdc-switch-unselected-handle-color: #9e9e9e;
-    --mdc-switch-unselected-hover-handle-color: #fafafa;
-    --mdc-switch-unselected-hover-state-layer-color: #f5f5f5;
-    --mdc-switch-unselected-hover-track-color: #616161;
-    --mdc-switch-unselected-icon-color: #212121;
-    --mdc-switch-unselected-pressed-handle-color: #fafafa;
-    --mdc-switch-unselected-pressed-state-layer-color: #f5f5f5;
-    --mdc-switch-unselected-pressed-track-color: #616161;
-    --mdc-switch-unselected-track-color: #616161;
-    --mdc-switch-disabled-label-text-color: rgba(255,255,255,0.5);
-    --mdc-switch-state-layer-size: 28px;
-}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
