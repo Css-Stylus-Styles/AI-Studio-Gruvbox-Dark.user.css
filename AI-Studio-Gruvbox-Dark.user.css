@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.7
+@version        1.0.8
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -693,6 +693,11 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
   background-color: inherit !important;
 }
 	
+	
+	.mat-mdc-icon-button:hover {
+  border: 1px solid #d5c4a1 !important; /* Customize border style, width, and color */
+  border-radius: 50% !important; /* To maintain the circular shape if desired */
+}
 	
 	
 	
