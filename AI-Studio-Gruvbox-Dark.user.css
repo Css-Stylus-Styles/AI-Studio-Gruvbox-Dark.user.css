@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.4
+@version        1.0.5
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -282,6 +282,19 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 	
+	
+	
+	/* jetbrains-mono-latin-wght-normal */
+@font-face {
+  font-family: 'JetBrains Mono Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+	
 	    :root
 
 {
@@ -423,7 +436,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	/*Google AI Studio text and UNitiled post text */
 	h1{
-		color : #79740e !important ; 
+		color : #98971a !important ; 
 				font-family: "Bricolage Grotesque" , sans-serif !important ; 
 		font-size: 1.5rem !important ; 
 	}
@@ -432,7 +445,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*SIde bar text */
 	/*System instrcutions adn Run settings  text */
 	h2 , .gmat-title-medium  , h3 {
-		color:#fb4934 !important;
+		color:#f57d26 !important;
 				font-family: "Bricolage Grotesque" , sans-serif !important ; 
 	}
 	
@@ -441,6 +454,14 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		color:#79740e !important;
 	}
 	
+	
+	
+	div.suggestion-card.container {
+	
+	color : #282828 !important ; 
+		background: #16181a !important ; 
+		border: solid 3px #3c3836 !important ; 
+}
 	
 	/*input Text and related styles */
 	/*Text you enter inside the text area*/
