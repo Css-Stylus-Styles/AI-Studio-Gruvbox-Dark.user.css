@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.5
+@version        1.0.6
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -456,12 +456,31 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
+	/*Suggestions Background div */
+	/*Cusom Suggestions background color */
 	div.suggestion-card.container {
 	
-	color : #282828 !important ; 
 		background: #16181a !important ; 
 		border: solid 3px #3c3836 !important ; 
 }
+	
+	/*Cusom Suggestions background color */
+	/*BOrder and backgorund hover */
+	div.suggestion-card.container:hover{
+	
+		background: #1a1b1d !important ; 
+		border: solid 3px #83a598 !important ; 
+		transition: background 0.5s ease-in-out , border .3s ease-in-out !important; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	/*input Text and related styles */
 	/*Text you enter inside the text area*/
