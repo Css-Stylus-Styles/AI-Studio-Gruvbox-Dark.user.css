@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.6
+@version        1.0.7
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -495,7 +495,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	textarea::placeholder{
 	 		
   font-family: 'Literata Variable' !important;
-		color:#FB4934 !important;
+		color:#d3869b !important;
 	}
 	
 	.input-wrapper {
@@ -679,8 +679,21 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		color: #83a598 !important ;
 	}
 	.dark-theme .material-symbols-outlined {
-    color: #8ec07c !important;
+    color: #83a598 !important;
 }
+	
+	
+	/* Front page SUggestion container icon colors  */
+.icon-container.icon-container-image {
+  background-color: #83a598  !important; /* Change this to your preferred color */
+}
+
+/* Ensure the img-block inherits the color */
+.icon-container .img-block {
+  background-color: inherit !important;
+}
+	
+	
 	
 	
 	
