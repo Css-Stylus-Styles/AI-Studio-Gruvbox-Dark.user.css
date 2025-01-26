@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.8
+@version        1.0.9
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -42,22 +42,16 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 
-
-	/*Bricolage Grotesque Import */
-	@font-face {
-		font-family: "Bricolage Grotesque";
-		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot");
-		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot?#iefix")format("embedded-opentype"),
-		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff2")format("woff2"),
-		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff")format("woff"),
-		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.ttf")format("truetype"),
-		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.svg#Bricolage Grotesque")format("svg");
-	}
-
-
-
-
-
+/* bricolage-grotesque-latin-wght-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  font-stretch: 75% 100%;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/bricolage-grotesque:vf@latest/latin-standard-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 
 
 	/*Lora Font Import*/
@@ -428,17 +422,21 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	/*Save Share reset get code and Get APi key icon Side bar colors  */
 	.mdc-button .mdc-button__label , .nav-item-text-wrapper {
-	 color:#83a598 !important;
+	 color:#83a867 !important;
 		
-		font-family: "Jetbrains Mono" , sans-serif !important ; 
-		font-size: 0.8rem !important ; 
+		font-family: "Bricolage Grotesque Variable" , sans-serif !important ; 
+		font-size: 0.98rem !important ; 
+		font-weight: 400 !important ; 
+		font-stretch: semi-condensed
 }
 	
 	/*Google AI Studio text and UNitiled post text */
 	h1{
 		color : #98971a !important ; 
-				font-family: "Bricolage Grotesque" , sans-serif !important ; 
 		font-size: 1.5rem !important ; 
+		font-family: "Bricolage Grotesque Variable"  !important ; 
+		font-stretch : semi-condensed !important ; 
+		font-weight: 600 !important ;
 	}
 	
 	
@@ -446,7 +444,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*System instrcutions adn Run settings  text */
 	h2 , .gmat-title-medium  , h3 {
 		color:#f57d26 !important;
-				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+		font-family: "Bricolage Grotesque Variable"  !important ; 
+		font-stretch: expanded !important ; 
+		font-weight: 600 !important ;
 	}
 	
 	/*All icons inside the webapp*/
@@ -494,14 +494,13 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*Text tat is just there as an input place holder */
 	textarea::placeholder{
 	 		
-  font-family: 'Literata Variable' !important;
-		color:#d3869b !important;
+  font-family: 'Jetbrains Mono Variable' , 'Jetbrains Mono' !important;
+		color:#fb4934 !important;
 	}
 	
 	.input-wrapper {
-    border: 1px solid #4D4A08 !important ; 
-    border-color:#4D4A08 !important  ; 
-    border-radius: 20px;
+    border: 3px solid #3c3836 !important ; 
+    border-radius: 10px !important;
     overflow: hidden;
 }
 	
@@ -695,7 +694,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	.mat-mdc-icon-button:hover {
-  border: 1px solid #d5c4a1 !important; /* Customize border style, width, and color */
+  border: 1px solid #665c54 !important; /* Customize border style, width, and color */
   border-radius: 50% !important; /* To maintain the circular shape if desired */
 }
 	
