@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.0
+@version        1.1.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -445,8 +445,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	h2 , .gmat-title-medium  , h3 {
 		color:#f57d26 !important;
 		font-family: "Bricolage Grotesque Variable"  !important ; 
-		font-stretch: expanded !important ; 
-		font-weight: 600 !important ;
+		font-stretch: normal !important ; 
+		font-weight: 550 !important ;
 	}
 	
 	/*All icons inside the webapp*/
@@ -472,6 +472,25 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		border: solid 3px #83a598 !important ; 
 		transition: background 0.5s ease-in-out , border .3s ease-in-out !important; 
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* Left Sidebar button Hover */
+a.nav-item:hover {
+  background-color: #16181a  !important;
+	border : solid 2px #665c54 !important ;
+	transition: border 0.3s ease-in !important ; 
+}
+	
+	
 	
 	
 	
@@ -582,15 +601,37 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*models inside the model selection dialogue box */
 	span.base-model.gmat-body-medium{
 		color:#b8bb26 !important;
-				font-family: "Bricolage Grotesque" , sans-serif !important ; 
+				font-family: "Bricolage Grotesque Variable"   !important ;
+		font-stretch: normal !important ;
+		font-weight: 500 !important ;
 	}
+	
+	
+	
+	/*Model FUll into subtitiles insdie the dialogue box */
+		.base-model-subtitle {
+		color:#ffd29c !important;
+				font-family: "Bricolage Grotesque Variable"   !important ;
+		font-stretch: normal !important ;
+		font-size: 1rem !important ;
+}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
 	
 	/*New model Idicator SIDE BAR */
 	/* New model tag button */
 	.base-model .new-model , .new-badge {
-		color : #fe8019 !important ; 
+		color : #d5c4a1 !important ; 
 		background: #1d1b1a !important ; 
-		border : solid 3px #d65d0e !important  ; 
+		border : solid 1px #83a598 !important  ; 
 }
 	
 	/*Model Optioons Different model */
@@ -599,10 +640,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 	
-	.base-model-subtitle {
-    color: #fb4934 !important ; 
-				font-family: "Bricolage Grotesque" , sans-serif !important ; 
-}
+
 	
 	
 	/*Model Information*/
@@ -713,12 +751,36 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
+	
+	
+	
+	/* Top buttefly like icon color target */
+
+	/* Target the SVG and its paths */
+svg.dark-mode-shown path {
+  fill: #79740e !important; /* Change fill color */
+  stroke: #79740e  !important; /* Change stroke color */
+}
+	
+	
+	
+	/*Get API Key text*/
+   span 	div.gmat-title-small {
+	   color : #fb4934 !important ;
+	   font-family: "Bricolage Grotesque Variable" !important; 
+	   font-stretch: 89% !important ;
+	   font-size: 1rem !important ; 
+	   
+}
+	
 	/*Api Key bborde button */
 	.layout-navbar .get-api-key-button{
     padding: 0 4px 0 8px !important;
     background-color: #1d1b1a !important;
 	border: solid 1px #3c3836 !important ; 
 }
+	
+	
 	
 	
 
