@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.1
+@version        1.1.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -659,7 +659,10 @@ a.nav-item:hover {
 	/*This is thing  */
 	div.item-input.token-count div {
     color: #b8bb26 !important; 
-   font-family: "Bricolage Grotesque" !important ; 
+   font-family: "Bricolage Grotesque Variable" !important ; 
+	font-stretch: semi-condensed !important  ; 
+		font-weight: 500 !important ; 
+		font-size: 1.05rem !important ; 
 }
 	
 	/*Side bar model info*/
