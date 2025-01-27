@@ -1,7 +1,7 @@
  /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.4
+@version        1.1.5
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -816,6 +816,58 @@ svg.dark-mode-shown path {
 	
 	
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Thinnkinng nmodel button */
+	
+	/*Backgorund color for the button  */
+	.mat-expansion-panel-header{
+		background: #1a1b1d !important ; 
+		border: solid 2px #79740e !important ; 
+	}
+	
+	
+	/*Thoughts   */
+	
+	.top-panel-title-content{
+		color: #d3869b !important ; 
+		font-family: "Bricolage Grotesque Variable" !important ;
+		font-stretch: 93% !important ; 
+		
+	}
+	
+	
+	
+	.mat-expansion-panel-header-description , .mat-expansion-panel-header-title{
+		color : #83a598 !important ;
+		font-family: "Jetbrains Mono Variable"  , "Jetbrains Mono"!important ;
+		font-stretch: 83% !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
