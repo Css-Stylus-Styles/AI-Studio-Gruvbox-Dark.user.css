@@ -1,7 +1,7 @@
  /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.7
+@version        1.1.8
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -862,7 +862,7 @@ svg.dark-mode-shown path {
 	/*Time to complete the answer*/
 	/*complete time to answer the prompt */
 	.xap-inline-dialog.model-run-time-pill {
-		color: #fe8019 !important ; 
+		color: #fabd2f !important ; 
 		font-family: "Jetbrains Mono Variable" !important ;
 		font-weight: 700 !important ;
 		
@@ -925,6 +925,90 @@ svg.dark-mode-shown path {
     color: #ebdbb2; /* Example: Change text color */
     font-size: 14px; /* Example: Change font size */
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Send Button*/
+	
+	.run-button {
+    background-color:#1d1b1a !important ;
+    border: 3px solid #98971a !important;
+    border-radius: 16px;
+    color: #ffd29c !important ; 
+
+}
+	
+	/*Hover for the send button */
+		.run-button:hover{
+			
+    background-color:#1a1b1d !important ;
+    border: 3px solid #b8bb26 !important;
+    border-radius: 12px !important;
+    color: #f9f5d7 !important ; 
+			
+	padding: 0rem 1.2rem !important ;
+	transition: border 0.4s ease-in-out , padding 0.2s ease-in-out !important ; 
+
+}
+	
+	/*Run and Control text inthe send button targetted */
+	
+	body > app-root > div > div > div.layout-wrapper > div > span > ms-prompt-switcher > ms-chunk-editor > section > footer > div.input-wrapper > div > run-button > button > div > span > span.label  , span.secondary-key{
+
+	color: #ffd29c !important ; 
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-stretch: 89% !important ;
+	font-weight: 500 !important  ; 
+	
+	}
+	
+	
+	
+	
+	
+	
+	/* Target the circle */
+circle.stoppable-spinner {
+    stroke: #fb4934 !important; /* Change the stroke color */
+    stroke-width: 3; /* Increase the stroke width */
+}
+
+/* Target the rectangle */
+rect.stoppable-stop {
+    fill: #8ec07c !important; /* Change the fill color */
+    opacity: 0.8; /* Adjust the opacity */
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
