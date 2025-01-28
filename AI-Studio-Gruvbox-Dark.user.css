@@ -1,7 +1,7 @@
  /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.6
+@version        1.1.7
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -869,14 +869,62 @@ svg.dark-mode-shown path {
 }
 	
 	
+
 	
 	
 	
 	
 	
+	/*Library */
+	
+	
+	/*Name Description Type Updaed on the library page */
+	.mat-sort-header-container {
+		color: #b8bb26 !important ; 
+		font-family: "Bricolage Grotesque Variable" !important ; 
+		font-stretch: semi-condensed !important ; 
+	}
 	
 	
 	
+	
+	/*Links to get to the old chats */
+	td .name-btn {
+		
+	color: #8ec07c !important ;
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-stretch: semi-condensed !important ; 
+}
+	
+	
+	/*Library page Searach bar */
+.search-bar-input {
+    caret-color: #fe8019 !important ;
+   color: #ffd29c !important ;
+	font-family: "Jetbrains Mono Variable" !important ;
+    
+}
+
+
+
+	/*Type of chat*/
+	
+	td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-type.mat-column-type  , div.tooltip-overflow.ng-star-inserted > span {
+	color : #928374 !important ; 
+	font-family: "Bricolage Grotesque Variable" !important ;
+	font-stretch: semi-condensed !important ; 
+	}
+	
+	
+	
+	
+	/*TIme line of the cahts with modle in libaray */
+	td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-updated{
+	font-family: "Bricolage Grotesque Variable" !important ;
+	font-stretch: semi-condensed !important ; 
+    color: #ebdbb2; /* Example: Change text color */
+    font-size: 14px; /* Example: Change font size */
+}
 	
 	
 	
