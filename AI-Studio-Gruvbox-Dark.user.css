@@ -1,7 +1,7 @@
  /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.1.5
+@version        1.1.6
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -834,7 +834,7 @@ svg.dark-mode-shown path {
 	/*Backgorund color for the button  */
 	.mat-expansion-panel-header{
 		background: #1a1b1d !important ; 
-		border: solid 2px #79740e !important ; 
+		border: solid 2px #504945 !important ; 
 	}
 	
 	
@@ -848,9 +848,9 @@ svg.dark-mode-shown path {
 	}
 	
 	
-	
+	/*The thoughts produced by the model */
 	.mat-expansion-panel-header-description , .mat-expansion-panel-header-title{
-		color : #83a598 !important ;
+		color : #83a867 !important ;
 		font-family: "Jetbrains Mono Variable"  , "Jetbrains Mono"!important ;
 		font-stretch: 83% !important ; 
 	}
@@ -859,6 +859,14 @@ svg.dark-mode-shown path {
 	
 	
 	
+	/*Time to complete the answer*/
+	/*complete time to answer the prompt */
+	.xap-inline-dialog.model-run-time-pill {
+		color: #fe8019 !important ; 
+		font-family: "Jetbrains Mono Variable" !important ;
+		font-weight: 700 !important ;
+		
+}
 	
 	
 	
