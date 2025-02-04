@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Dark
 @namespace      github.com/openstyles/stylus
-@version        1.2.0
+@version        1.2.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -1437,12 +1437,33 @@ code .hljs-selector-pseudo {
 	
 	
 	
+	/*Settings -> Auto Saving enables */
+	.autosave-section .autosave-toggle span {
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-stretch: semi-condensed !important ; 
+		color: #fb4934 !important ; 
+	}
 	
 	
 	
+	/*Settings -> Plan Information  */
+	div.links a[href="/plan_information"]{
+		
+	font-family: "Bricolage Grotesque Variable" !important ; 
+	font-stretch: semi-condensed !important ; 
+		color: #fb4934 !important ; 
+		text-decoration: underline ~!important ; 
+	
+	}
 	
 	
-
+	/*Hover ^^*/
+	
+div.links a[href="/plan_information"]:hover {
+    color: #b8bb26 !important; /* Change to your desired hover color */
+    text-decoration: Underline !important; /* Example: Remove underline on hover */
+ 	font-size: 1.1rem !important ; 
+	}
 	
 	
 	
